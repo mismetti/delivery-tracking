@@ -1,8 +1,11 @@
 package com.mila.delivery.delivery_tracking.domain.model;
 
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 @EqualsAndHashCode
+@AllArgsConstructor
+@Builder
+@Getter
 public class ContactPoint {
     private String zipCode;
     private String street;
